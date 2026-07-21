@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import logo from "@/assets/jeyce-logo.webp";
+import logoLight from "@/assets/jeyce-logo-light.webp";
 import { WHATSAPP } from "@/lib/constants";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -60,14 +61,30 @@ export function Navbar() {
           href="#top"
           className="relative z-10 flex min-w-0 items-center gap-3"
         >
-          {/* A assinatura já traz nome e CRP — dispensa texto ao lado. */}
-          <img
-            src={logo}
-            alt="Jeyce Menezes — Psicóloga · CRP 04/85851"
-            className={`w-auto object-contain transition-all duration-500 ${
+          {/* A assinatura já traz nome e CRP — dispensa texto ao lado.
+              No topo a logo fica sobre a hero escura, então usamos a versão clara;
+              com a rolagem o fundo vira vidro claro e voltamos à versão colorida. */}
+          <span
+            className={`relative inline-flex transition-all duration-500 ${
               scrolled ? "h-14" : "h-20 md:h-24"
             }`}
-          />
+          >
+            <img
+              src={logoLight}
+              alt="Jeyce Menezes — Psicóloga · CRP 04/85851"
+              className={`h-full w-auto object-contain transition-opacity duration-500 ${
+                scrolled ? "opacity-0" : "opacity-100"
+              }`}
+            />
+            <img
+              src={logo}
+              alt=""
+              aria-hidden
+              className={`absolute inset-y-0 left-0 h-full w-auto object-contain transition-opacity duration-500 ${
+                scrolled ? "opacity-100" : "opacity-0"
+              }`}
+            />
+          </span>
         </motion.a>
 
         {/* Navegação — apenas com a rolagem */}
