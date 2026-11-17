@@ -6,7 +6,7 @@
  */
 
 // (32) 99929-8720 — formato internacional, apenas dígitos.
-export const WHATSAPP_NUMBER = "5532999298720";
+export const WHATSAPP_NUMBER = "5532999243089";
 
 export const whatsappLink = (message: string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;

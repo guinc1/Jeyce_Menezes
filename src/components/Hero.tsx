@@ -40,7 +40,7 @@ export function Hero() {
         className="absolute top-[var(--hero-anchor)] inset-x-0 z-10 flex items-center justify-center gap-3 px-6 text-center"
       >
         <span className="h-px w-8 bg-accent-light/70" />
-        <span className="text-[10px] md:text-[11px] tracking-[0.5em] uppercase text-background/80">
+        <span className="text-[10px] md:text-[11px] tracking-[0.5em] uppercase text-background/85 [text-shadow:0_1px_10px_rgb(0_0_0/0.55)]">
           Psicologia Humanista · Presencial e Online
         </span>
         <span className="h-px w-8 bg-accent-light/70" />
@@ -57,19 +57,18 @@ export function Hero() {
             transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
             className="max-w-3xl"
           >
-            <h1 className="font-display text-background text-[clamp(2.45rem,min(6.5vw,calc((100svh_-_var(--hero-anchor))*0.1)),5.15rem)] leading-[0.95] font-medium">
+            <h1 className="hero-text-shadow font-display text-background text-[clamp(2.45rem,min(6.5vw,calc((100svh_-_var(--hero-anchor))*0.1)),5.15rem)] leading-[0.95] font-medium">
               Um espaço seguro
               <br />
               para se escutar
               <br />
-              <span className="italic text-accent-light">e respirar</span>
-              <span className="text-accent-light">.</span>
+              <span className="hero-text-shadow-strong italic text-accent-light">e respirar</span>
+              <span className="hero-text-shadow-strong text-accent-light">.</span>
             </h1>
 
-            <p className="mt-6 md:mt-8 max-w-xl text-background/80 text-base md:text-lg font-light leading-relaxed">
+            <p className="hero-text-shadow mt-6 md:mt-8 max-w-xl text-background/95 text-base md:text-lg font-normal leading-relaxed">
               Psicoterapia na abordagem humanista para ansiedade, insegurança, autoestima e
-              sobrecarga emocional. Uma escuta acolhedora, empática e sem julgamentos — presencial
-              em Juiz de Fora e online.
+              sobrecarga emocional. Um acompanhamento acolhedor, empática e sem julgamentos — atendimento online e presencial em Juiz de Fora.
             </p>
 
             <div className="mt-8 md:mt-10 flex flex-nowrap md:flex-wrap items-stretch gap-2.5 md:gap-3">

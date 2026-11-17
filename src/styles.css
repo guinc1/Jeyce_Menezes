@@ -215,6 +215,20 @@
     background: var(--gradient-glow);
   }
 
+  /* Hero: destaca o texto sem mexer na foto — a sombra fica só em volta
+     das letras (uma curta para o contorno, uma longa e difusa de apoio). */
+  .hero-text-shadow {
+    text-shadow:
+      0 1px 2px hsl(0 0% 0% / 0.3),
+      0 2px 24px hsl(0 0% 0% / 0.5);
+  }
+  /* o trecho em salmão tem menos contraste com a parede rosada */
+  .hero-text-shadow-strong {
+    text-shadow:
+      0 1px 3px hsl(0 0% 0% / 0.4),
+      0 2px 28px hsl(0 0% 0% / 0.7);
+  }
+
   .shadow-soft {
     box-shadow: var(--shadow-soft);
   }
