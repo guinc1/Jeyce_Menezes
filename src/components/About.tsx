@@ -4,8 +4,8 @@ import { SectionHeader } from "@/components/SectionHeader";
 
 const specs = [
   { label: "Registro", value: "CRP 04/85851" },
-  { label: "Experiência", value: "Mais de 10 anos de atuação" },
-  { label: "Formato", value: "Presencial em Juiz de Fora · Online" },
+  { label: "Público", value: "Adultos e Adolescentes" },
+  { label: "Formato", value: "Online · Presencial em Juiz de Fora" },
 ];
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -41,27 +41,30 @@ export function About() {
 
             <div className="space-y-5 text-base md:text-lg text-muted-foreground font-light leading-relaxed max-w-xl">
               <p>
-                Sou Jeyce, psicóloga <span className="text-foreground">(CRP 04/85851)</span> com{" "}
-                <span className="text-foreground">mais de 10 anos de experiência</span> em
-                atendimento e atuação em contextos de alta demanda emocional. Desenvolvo meu
-                trabalho com foco em <span className="text-foreground">escuta qualificada</span>,
-                ética, empatia e mediação de conflitos, prezando por um cuidado humanizado e
-                responsável.
+                Sou Jeyce Menezes, psicóloga clínica{" "}
+                <span className="text-foreground">(CRP 04/85851)</span> com atuação na{" "}
+                <span className="text-foreground">Abordagem Humanista</span>. Acredito que a
+                psicoterapia é, antes de tudo, um convite para desacelerar: um espaço seguro e{" "}
+                <span className="text-foreground">sem julgamentos</span> para você se escutar,
+                organizar os sentimentos e respirar melhor diante das pressões do dia a dia.
               </p>
               <p>
-                Atuo como psicóloga clínica na{" "}
-                <span className="text-foreground">abordagem humanista</span>, auxiliando pessoas a
-                lidarem com questões como ansiedade, insegurança, autoestima e sobrecarga emocional.
-                Meu trabalho é oferecer um espaço de escuta acolhedor, empático e{" "}
-                <span className="text-foreground">sem julgamentos</span>, promovendo
-                autoconhecimento, equilíbrio emocional e melhor qualidade de vida.
+                Auxilio <span className="text-foreground">adultos e adolescentes</span> a lidarem
+                com questões como ansiedade, insegurança, baixa autoestima e sobrecarga emocional.
+                Mais do que aliviar sintomas, meu objetivo é oferecer um lugar onde você possa
+                olhar para a sua própria história, questionar os caminhos que tem tomado e dar
+                sentido às suas escolhas.
               </p>
               <p>
-                Além da clínica, também atuo com a implementação da{" "}
-                <span className="text-foreground">NR-1 em empresas</span>, contribuindo para a
-                promoção da saúde mental no ambiente corporativo, a prevenção de{" "}
-                <span className="text-foreground">riscos psicossociais</span> e o desenvolvimento de
-                ações voltadas ao bem-estar dos colaboradores.
+                Meu compromisso é caminhar ao seu lado no processo de{" "}
+                <span className="text-foreground">autoconhecimento</span>, ajudando você a resgatar
+                o equilíbrio emocional e construir uma relação mais leve e autêntica consigo
+                mesma(o).
+              </p>
+              <p>
+                Realizo atendimentos na modalidade <span className="text-foreground">online</span> e
+                também <span className="text-foreground">presenciais em Juiz de Fora</span>. Será um
+                prazer acompanhar a sua jornada.
               </p>
             </div>
 
