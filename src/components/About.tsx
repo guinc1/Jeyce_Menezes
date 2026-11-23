@@ -94,16 +94,18 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 1, ease }}
-            className="md:col-span-5 order-1 md:order-2 relative md:-mt-12"
+            className="md:col-span-5 order-1 md:order-2 relative w-full max-w-sm mx-auto md:mr-0"
           >
-            <div className="relative rounded-[2rem] overflow-hidden shadow-elevated aspect-[4/5]">
+            {/* foto suavizada: tons puxados para o creme do site, sem a sombra
+                pesada; o véu mais forte embaixo clareia o teclado escuro */}
+            <div className="relative rounded-[2rem] overflow-hidden shadow-soft aspect-[4/5]">
               <img
                 src={portrait}
-                alt="Retrato de Jeyce Menezes, psicóloga (imagem placeholder)"
-                className="h-full w-full object-cover"
+                alt="Notebook com a logo de Jeyce Menezes, psicóloga, no consultório"
+                className="h-full w-full object-cover object-top saturate-[.85] contrast-[.88] brightness-[1.06] sepia-[.08]"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink/50 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-background/10 via-50% to-background/10" />
             </div>
 
             {/* overlapping pull-quote */}
@@ -117,7 +119,7 @@ export function About() {
               <div className="relative z-10">
                 <span className="font-display text-5xl leading-none text-accent-gradient">“</span>
                 <p className="font-display italic text-lg md:text-xl leading-snug text-foreground -mt-3">
-                  Escutar de verdade já é cuidar — e ninguém precisa atravessar isso sozinho.
+                  A pessoa, em contato com seu próprio eu, torna-se um ser em processo, capaz de se tornar mais do que ela é.
                 </p>
               </div>
             </motion.figure>
