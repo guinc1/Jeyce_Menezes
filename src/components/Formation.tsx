@@ -10,17 +10,15 @@ type Group = {
   items: string[];
 };
 
-// [A PREENCHER] Aguardando os dados de formação da cliente. O segundo grupo já traz
-// o que é público (abordagem e frentes de atuação); o primeiro é integralmente placeholder.
 const groups: Group[] = [
   {
     icon: GraduationCap,
     label: "Graduação & Especializações",
     items: [
-      "[A PREENCHER] Graduação em Psicologia — instituição e ano",
-      "[A PREENCHER] Especialização — área · instituição · ano",
-      "[A PREENCHER] Especialização — área · instituição · ano",
-      "[A PREENCHER] Curso / formação complementar",
+      "Graduação em Psicologia — Universidade Salgado de Oliveira (Juiz de Fora)",
+      "Pós-graduação em Psicologia Humanista: Abordagem Centrada na Pessoa (ACP)",
+      "Pós-graduação em Psicologia Social",
+      "Pós-graduação em Avaliação Psicológica",
     ],
   },
   {
@@ -28,10 +26,7 @@ const groups: Group[] = [
     label: "Abordagem & Atuação",
     items: [
       "Abordagem Humanista",
-      "Psicologia Clínica — adultos",
-      "Mais de 10 anos em contextos de alta demanda emocional",
-      "Mediação de conflitos e escuta qualificada",
-      "NR-1 — riscos psicossociais e saúde mental no trabalho",
+      "Psicologia Clínica — adultos e adolescentes",
     ],
   },
 ];
@@ -52,9 +47,9 @@ export function Formation() {
             className="md:col-span-5 md:sticky md:top-28"
           >
             <h2 className="font-display text-4xl md:text-5xl leading-[1.05] text-foreground">
-              Uma década de prática,
+              Mais que corrigir o que dói,
               <br />
-              <span className="italic font-light text-accent-gradient">um cuidado humanizado.</span>
+              <span className="italic font-light text-accent-gradient">habitar a própria história.</span>
             </h2>
           </motion.div>
 

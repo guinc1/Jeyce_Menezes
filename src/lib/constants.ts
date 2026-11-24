@@ -1,8 +1,7 @@
 /**
  * Ponto único de configuração dos contatos do site.
  *
- * [A PREENCHER] Pendente: horários de atendimento (src/components/Contact.tsx)
- * e a seção de formação (src/components/Formation.tsx).
+ * [A PREENCHER] Pendente: horários de atendimento (src/components/Contact.tsx).
  */
 
 // (32) 99929-8720 — formato internacional, apenas dígitos.
@@ -15,9 +14,6 @@ export const WHATSAPP = {
   default: whatsappLink("Olá, Jeyce! Vim pelo site e gostaria de agendar uma sessão."),
   agendar: whatsappLink("Olá, Jeyce! Vim pelo site e gostaria de agendar uma sessão."),
   hero: whatsappLink("Olá, Jeyce! Vim pelo site e gostaria de agendar uma sessão."),
-  empresas: whatsappLink(
-    "Olá, Jeyce! Vim pelo site e gostaria de falar sobre a implementação da NR-1 na minha empresa.",
-  ),
 };
 
 // Pin oficial do consultório (Juiz de Fora, MG).

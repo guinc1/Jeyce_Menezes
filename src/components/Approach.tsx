@@ -7,9 +7,9 @@ const pilares = [
   "Escuta qualificada e sem julgamentos",
   "Ética profissional e sigilo",
   "Empatia e acolhimento em cada encontro",
-  "Mediação de conflitos",
+  "Respeito à sua história e ao seu tempo",
   "Autoconhecimento e equilíbrio emocional",
-  "Atendimento presencial e online",
+  "Atendimento online e presencial",
 ];
 
 export function Approach() {
@@ -28,11 +28,11 @@ export function Approach() {
             className="md:col-span-5 md:sticky md:top-28"
           >
             <h2 className="font-display text-4xl md:text-5xl leading-[1.05] text-foreground">
-              Escuta qualificada.
+              Onde o que você sente
               <br />
-              <span className="italic font-light text-accent-gradient">Cuidado humanizado.</span>
+              <span className="italic font-light text-accent-gradient">deixa de ser peso</span>
               <br />
-              Mudança real.
+              e ganha palavra.
             </h2>
           </motion.div>
 
@@ -44,18 +44,17 @@ export function Approach() {
             className="md:col-span-7 space-y-7 text-base md:text-lg text-muted-foreground leading-relaxed font-light"
           >
             <p>
-              Trabalho na <span className="text-foreground">abordagem humanista</span>, que parte de
-              uma ideia simples: você é quem melhor conhece a própria experiência. Meu papel não é
-              dizer o que você deve sentir, mas sustentar um espaço de escuta em que o que você
-              sente possa, enfim, ser dito — com{" "}
-              <span className="text-foreground">empatia e sem julgamentos</span>.
+              Acredito na <span className="text-foreground">abordagem humanista</span> porque ela
+              parte de uma certeza simples: ninguém habita a sua história melhor do que você. Meu
+              papel não é oferecer respostas prontas, mas sustentar um{" "}
+              <span className="text-foreground">espaço de pausa</span> onde o que hoje pesa possa,
+              enfim, ser dito e compreendido.
             </p>
             <p>
-              Mais do que falar sobre a dor, caminhamos para{" "}
-              <span className="text-foreground">compreender</span> o que a sustenta e{" "}
-              <span className="text-foreground">encontrar novos modos de se posicionar</span> diante
-              dela. São mais de dez anos de prática em contextos de alta demanda emocional — sempre
-              com ética, responsabilidade e respeito ao seu tempo.
+              Mais do que olhar para o sintoma, caminhamos juntos para entender{" "}
+              <span className="text-foreground">o que faz sentido na sua existência</span> e abrir
+              espaço para <span className="text-foreground">novos modos de estar no mundo</span> —
+              sempre com ética, rigor clínico e respeito ao seu próprio ritmo.
             </p>
           </motion.div>
         </div>

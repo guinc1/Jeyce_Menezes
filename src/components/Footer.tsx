@@ -17,7 +17,7 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-center gap-2 md:items-end">
-          <span>Psicoterapia Humanista &middot; NR-1 e Saúde Mental no Trabalho</span>
+          <span>Psicoterapia Humanista</span>
           <span>Juiz de Fora &middot; MG &middot; Atendimento online</span>
         </div>
       </div>

@@ -1,14 +1,6 @@
 import { motion } from "framer-motion";
-import {
-  Sprout,
-  HeartPulse,
-  Sparkles,
-  Building2,
-  ArrowUpRight,
-  type LucideIcon,
-} from "lucide-react";
+import { Sprout, HeartPulse, Sparkles, type LucideIcon } from "lucide-react";
 import { SectionHeader } from "@/components/SectionHeader";
-import { WHATSAPP } from "@/lib/constants";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -17,38 +9,29 @@ type Service = {
   title: string;
   tagline: string;
   description: string;
-  cta?: { label: string; href: string };
 };
 
 const services: Service[] = [
   {
     icon: Sprout,
     title: "Psicoterapia Individual",
-    tagline: "Um espaço só seu, na abordagem humanista.",
+    tagline: "Um lugar para habitar a própria história.",
     description:
-      "Atendimento clínico para adultos que querem se compreender melhor e viver com mais equilíbrio. Uma escuta acolhedora, empática e sem julgamentos, que respeita a sua história e o seu tempo — presencial em Juiz de Fora ou online.",
+      "Encontro clínico para adultos que buscam compreender a própria experiência e viver com mais presença e sentido. Um espaço sem julgamentos e sem pressa, que respeita o seu tempo — presencial em Juiz de Fora ou online.",
   },
   {
     icon: HeartPulse,
     title: "Ansiedade e Sobrecarga Emocional",
-    tagline: "Quando a mente não desacelera e o corpo cobra a conta.",
+    tagline: "Quando o excesso pede pausa e escuta.",
     description:
-      "Acompanhamento para quem convive com ansiedade, estresse contínuo, exaustão e a sensação de estar sempre dando conta de tudo sozinho. Um processo para reconhecer os próprios limites e recuperar o fôlego.",
+      "Acompanhamento para quem vive no ritmo da pressa, da tensão contínua ou da sensação de ter que sustentar tudo sozinho. Um processo para reconhecer seus limites, dar nome ao que pesa e voltar a respirar com mais liberdade.",
   },
   {
     icon: Sparkles,
     title: "Autoestima e Insegurança",
-    tagline: "Uma relação mais gentil com você mesmo.",
+    tagline: "Aprender a ocupar o próprio lugar.",
     description:
-      "Para quem se cobra demais, duvida do próprio valor ou tem dificuldade de se posicionar. Um caminho de autoconhecimento para construir confiança, limites saudáveis e uma voz interna menos dura.",
-  },
-  {
-    icon: Building2,
-    title: "NR-1 e Saúde Mental no Trabalho",
-    tagline: "Cuidado emocional também é responsabilidade da empresa.",
-    description:
-      "Consultoria para a implementação da NR-1: identificação e prevenção de riscos psicossociais, mediação de conflitos e ações voltadas ao bem-estar dos colaboradores — com a mesma escuta qualificada da clínica, aplicada ao contexto corporativo.",
-    cta: { label: "Falar sobre a NR-1 na minha empresa", href: WHATSAPP.empresas },
+      "Para quem convive com a cobrança excessiva, a dúvida sobre si ou a dificuldade de sustentar escolhas e limites. Um percurso de elaboração e autonomia para construir uma postura mais inteira e menos dura consigo mesmo.",
   },
 ];
 
@@ -104,22 +87,6 @@ export function Services() {
                   <p className="text-sm md:text-base text-muted-foreground leading-relaxed font-light">
                     {s.description}
                   </p>
-                  {s.cta && (
-                    <a
-                      href={s.cta.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="group/cta mt-6 inline-flex items-center gap-2 text-sm text-foreground"
-                    >
-                      <span className="border-b border-accent/40 pb-1 transition-colors group-hover/cta:border-accent group-hover/cta:text-accent-gradient">
-                        {s.cta.label}
-                      </span>
-                      <ArrowUpRight
-                        size={15}
-                        className="text-accent-gradient transition-transform duration-300 group-hover/cta:rotate-45"
-                      />
-                    </a>
-                  )}
                 </div>
               </motion.article>
             );
