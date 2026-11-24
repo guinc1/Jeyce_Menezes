@@ -68,7 +68,7 @@ export function Hero() {
 
             <p className="hero-text-shadow mt-6 md:mt-8 max-w-xl text-background/95 text-base md:text-lg font-normal leading-relaxed">
               Psicoterapia na abordagem humanista para ansiedade, insegurança, autoestima e
-              sobrecarga emocional. Um acompanhamento acolhedor, empática e sem julgamentos — atendimento online e presencial em Juiz de Fora.
+              sobrecarga emocional. Um acompanhamento acolhedor, empático e sem julgamentos — atendimento online e presencial em Juiz de Fora.
             </p>
 
             <div className="mt-8 md:mt-10 flex flex-nowrap md:flex-wrap items-stretch gap-2.5 md:gap-3">

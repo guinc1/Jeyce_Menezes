@@ -4,7 +4,6 @@ import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { Formation } from "@/components/Formation";
 import { Hero } from "@/components/Hero";
-import { InstagramFeed } from "@/components/InstagramFeed";
 import { Manifesto } from "@/components/Manifesto";
 import { Navbar } from "@/components/Navbar";
 import { Services } from "@/components/Services";
@@ -24,7 +23,8 @@ export function App() {
       <Services />
       <Testimonials />
       <Manifesto />
-      <InstagramFeed />
+      {/* Feed do Instagram desativado por enquanto — para reativar, reimportar
+          InstagramFeed, recolocar aqui, voltar o link no Navbar e o Contato para "08". */}
       <Contact />
       <Footer />
       <WhatsAppFloat />

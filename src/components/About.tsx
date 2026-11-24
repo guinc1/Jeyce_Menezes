@@ -94,18 +94,16 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 1, ease }}
-            className="md:col-span-5 order-1 md:order-2 relative w-full max-w-sm mx-auto md:mr-0"
+            className="md:col-span-5 order-1 md:order-2 relative md:self-center"
           >
-            {/* foto suavizada: tons puxados para o creme do site, sem a sombra
-                pesada; o véu mais forte embaixo clareia o teclado escuro */}
-            <div className="relative rounded-[2rem] overflow-hidden shadow-soft aspect-[4/5]">
+            <div className="relative rounded-[2rem] overflow-hidden shadow-elevated aspect-[4/5]">
               <img
                 src={portrait}
                 alt="Notebook com a logo de Jeyce Menezes, psicóloga, no consultório"
-                className="h-full w-full object-cover object-top saturate-[.85] contrast-[.88] brightness-[1.06] sepia-[.08]"
+                className="h-full w-full object-cover"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-background/10 via-50% to-background/10" />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink/50 via-transparent to-transparent" />
             </div>
 
             {/* overlapping pull-quote */}

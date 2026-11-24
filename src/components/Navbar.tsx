@@ -12,7 +12,6 @@ const links = [
   { label: "Abordagem", href: "#abordagem" },
   { label: "Serviços", href: "#servicos" },
   { label: "Filosofia", href: "#manifesto" },
-  { label: "Instagram", href: "#instagram" },
   { label: "Contato", href: "#contato" },
 ];
 

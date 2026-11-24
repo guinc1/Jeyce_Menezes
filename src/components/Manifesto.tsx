@@ -6,18 +6,18 @@ const ease = [0.22, 1, 0.36, 1] as const;
 const blocks = [
   {
     eyebrow: "No que acredito",
-    title: "Cuidar da saúde mental não é luxo. É uma forma de respeito por si.",
+    title: "Cuidar de si não é luxo. É uma forma de respeito pela própria vida.",
     paragraphs: [
-      "Muita gente adia o próprio cuidado — por rotina, por medo ou por acreditar que precisa dar conta de tudo sozinha. Mas buscar ajuda não é fraqueza: é um passo de coragem e de responsabilidade com a própria vida.",
-      "Meu trabalho é sustentar um espaço seguro, ético e acolhedor para esse cuidado: um lugar onde é possível falar sobre o que pesa sem medo de julgamento, compreender o que se sente e construir formas mais saudáveis de existir.",
+      "Muitas vezes, a gente adia o próprio cuidado por achar que precisa dar conta de tudo sozinha(o). Mas buscar terapia não é fraqueza: é abrir um respiro para habitar a própria existência com mais verdade e menos peso.",
+      "Meu trabalho é oferecer um espaço ético, seguro e sem julgamentos, onde você possa falar do que sente e construir caminhos mais inteiros no seu tempo.",
     ],
   },
   {
-    eyebrow: "Escuta & acolhimento",
-    title: "Escutar de verdade é uma prática — e ela se aprende com o tempo.",
+    eyebrow: "Escuta & presença",
+    title: "Há coisas que só ganham forma quando encontram alguém disposto a escutar sem invadir.",
     paragraphs: [
-      "Foram mais de dez anos em contextos de alta demanda emocional, onde aprendi que a escuta qualificada não é técnica fria nem conselho pronto: é presença, empatia e a disposição de ficar junto quando a conversa fica difícil.",
-      "Seja no consultório, em Juiz de Fora, na tela do computador ou dentro de uma empresa que decide olhar para o bem-estar de quem trabalha nela, o compromisso é o mesmo: caminhar ao seu lado, com cuidado humanizado e responsável.",
+      "Na prática humanista, o sentido da experiência não é imposto de fora: ele se elabora no encontro, no ritmo possível de cada momento e no respeito à singularidade de quem fala.",
+      "Seja presencialmente em Juiz de Fora ou online, o compromisso é manter um espaço ético e acolhedor para esse percurso.",
     ],
   },
 ];

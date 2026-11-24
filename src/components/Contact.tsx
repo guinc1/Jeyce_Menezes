@@ -16,7 +16,7 @@ const infos = [
   {
     icon: Clock,
     title: "Horários",
-    text: "[A PREENCHER] Horários de atendimento — agende pelo WhatsApp",
+    text: "Das 08h às 22h — agende pelo WhatsApp",
   },
 ];
 
@@ -25,7 +25,7 @@ export function Contact() {
     <section id="contato" className="relative py-28 md:py-40 px-6 md:px-10 overflow-hidden">
       <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[80vw] h-[60vw] bg-gradient-glow pointer-events-none" />
       <div className="relative mx-auto max-w-7xl">
-        <SectionHeader eyebrow="Contato" index="08" className="mb-14 md:mb-20" />
+        <SectionHeader eyebrow="Contato" index="07" className="mb-14 md:mb-20" />
 
         <div className="grid md:grid-cols-12 gap-12 md:gap-16 items-start">
           {/* LEFT — call to action */}

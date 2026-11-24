@@ -1,10 +1,9 @@
 /**
  * Ponto único de configuração dos contatos do site.
- *
- * [A PREENCHER] Pendente: horários de atendimento (src/components/Contact.tsx).
  */
 
-// (32) 99929-8720 — formato internacional, apenas dígitos.
+// (32) 99924-3089 — formato internacional, apenas dígitos.
+// Manter igual ao "telephone" dos dados estruturados em index.html.
 export const WHATSAPP_NUMBER = "5532999243089";
 
 export const whatsappLink = (message: string) =>
